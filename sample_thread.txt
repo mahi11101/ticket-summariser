@@ -1,0 +1,6 @@
+Customer: Our SSO login has been failing since this morning. None of our 40 engineers can sign in.
+Agent: Thanks for flagging. Can you share the SAML response error from your identity provider?
+Customer: It says the audience URI does not match. We did not change anything on our side.
+Agent: We rotated our SAML certificate yesterday. Your IdP still has the old metadata.
+Customer: This is the second outage this month and it is urgent. We are still blocked.
+Agent: Understood. I have sent the new metadata file and escalated to the identity team to confirm once you upload it.
